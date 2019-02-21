@@ -1,0 +1,13 @@
+# Comment:
+tempfile.txt
+*.zip
+*.gz
+*.DS_Store
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+#q: would log/archive/access.log be ignored? 
+#a: No. Nested folders will have to be taken care of explicitly.
